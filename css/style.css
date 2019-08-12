@@ -1,0 +1,73 @@
+body {
+	background-image: url(illuminatieye.jpg);
+	background-repeat: space;
+	background-size: 6%;
+	font-family: 'Fira Code', monospace;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.entry-picker {
+	background-color: #ff0000;
+	margin-bottom: 20px;
+}
+
+.entry-picker h1 {
+	padding: 5px;
+}
+
+.entry {
+	background-color: #bfff00;
+	padding: 0px 20px;
+	margin-bottom: 20px;
+}
+
+.entry h1 {
+	padding-top: 10px;
+}
+
+.entry p {
+	padding: 10px 0px;
+	font-size: 18px;
+}
+
+.intro {
+	background-color: #ff0000;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.text-column{
+	width: 70%;
+	display: inline-block;
+	margin: 0% 12.5%;
+	text-align: center;
+	padding: 0% 2.5%;
+}
+
+.image-column {
+	width: 12.5%;
+}
+
+.left {
+	position: fixed;
+}
+
+.right {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.entry {
+	text-align: left;
+}
